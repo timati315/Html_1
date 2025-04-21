@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма заявки</title>
+</head>
+<body>
+
+<h1>Форма заявки на работу в зоопарке</h1>
+<p>Пожалуйста, заполните форму. Обязательные поля помечены <span style="color:red">*</span></p>
+
+<!-- Контактная информация -->
+<fieldset>
+  <legend><strong>Контактная информация</strong></legend>
+
+  <label>Имя <span style="color:red">*</span>
+</label>
+  <input type="text" name="name"><br><br>
+
+  <label>Телефон</label>
+  <input type="text" name="phone"><br><br>
+
+  <label>Email <span style="color:red">*</span>
+</label>
+  <input type="email" name="email"><br><br>
+</fieldset>
+
+<!-- Персональная информация -->
+<fieldset>
+  <legend><strong>Персональная информация</strong></legend>
+
+  <label>Возраст <span style="color:red">*</span></label>
+  <input type="number" name="age"><br><br>
+
+  <label>Пол</label>
+  <select name="gender">
+    <option>Женщина</option>
+    <option>Мужчина</option>
+
+  </select><br><br>
+
+  <label>Перечислите личные качества</label><br>
+  <textarea name="qualities" rows="4" cols="40"></textarea>
+</fieldset>
+
+<!-- Любимые животные -->
+<fieldset>
+  <legend><strong>Выберите ваших любимых животных</strong></legend>
+
+  <input type="checkbox" name="animal" value="zebra"> Зебра
+  <input type="checkbox" name="animal" value="cat"> Кошак
+  <input type="checkbox" name="animal" value="anaconda"> Анаконда
+  <input type="checkbox" name="animal" value="human"> Человек<br>
+
+  <input type="checkbox" name="animal" value="elephant"> Слон
+  <input type="checkbox" name="animal" value="antelope"> Антилопа
+  <input type="checkbox" name="animal" value="pigeon"> Голубь
+  <input type="checkbox" name="animal" value="crab"> Краб
+</fieldset>
+
+<br>
+<input type="submit" value="Отправить информацию">
+
+</body>
+</html>
+         
+      
+  
+   
+        
+    
